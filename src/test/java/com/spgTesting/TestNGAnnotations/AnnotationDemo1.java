@@ -1,10 +1,10 @@
-package com.spgTesting;
+package com.spgTesting.TestNGAnnotations;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class AnnotationDemo {
+public class AnnotationDemo1 {
 
     @BeforeMethod
     void login()
