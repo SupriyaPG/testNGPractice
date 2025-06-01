@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All class tests">
+    <test verbose="2" preserve-order="true" name="C:/Users/Win/IdeaProjects/testNGPractice/src/test/java/com/spgTesting/beforeAndAfterTest_Annotation">
+        <classes>
+            <class name="com.spgTesting.TestNGAnnotations.beforeAndAfterTest_Annotation.test1">
+                <methods><include name="abc"/>
+                </methods></class>
+            <class name="com.spgTesting.TestNGAnnotations.beforeAndAfterTest_Annotation.test2">
+                <methods><include name="xyz"/>
+                </methods></class>
+
+        </classes>
+    </test>
+</suite>
