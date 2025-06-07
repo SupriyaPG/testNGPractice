@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="groupingsuite">
+
+    <test name="groupingtest">
+        <groups>
+            <run>
+               <!-- <include name="Regression"/> for only regression tests-->
+                <!-- <include name="Sanity"/> for only sanity tests -->
+                <!-- <exclude name="Sanity"></exclude> if don't want to add sanity-->
+
+                <include name="Functional"></include> <!--for tests include sanity and regression -->
+            </run>
+        </groups>
+        <classes>
+            <class name="com.spgTesting.TestNGAnnotations.Grouping.loginTests"></class>
+            <class name="com.spgTesting.TestNGAnnotations.Grouping.signUpTests"></class>
+            <class name="com.spgTesting.TestNGAnnotations.Grouping.PaymentTests"></class>
+        </classes>
+    </test>
+</suite>
