@@ -1,19 +1,20 @@
-package com.spgTesting.TestNGAnnotations.parameterization;
+package com.spgTesting.ListenersClass;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
+import org.testng.ITestNGListener;
 import org.testng.annotations.*;
 import org.testng.annotations.Test;
 import java.time.Duration;
 
+@Listeners(myListener.class)
 public class paramTest {
     WebDriver driver;
 
     @BeforeClass
-    void setup()
-    {
+    void setup() throws InterruptedException {
         driver=new EdgeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
