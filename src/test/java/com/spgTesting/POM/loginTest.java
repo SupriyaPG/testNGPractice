@@ -9,6 +9,10 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
+
+//Without using page Factory
+
+
 public class loginTest {
 
     WebDriver driver;
