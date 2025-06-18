@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="C:/Users/Win/IdeaProjects/testNGPractice/src/test/java/com/spgTesting/Listeners/paramTest.java">
-        <classes>
-            <class name="com.spgTesting.ListenersClass.paramTest">
-                <methods>
-                    <include name="testLogo"/>
-                    <include name="testTitle"/>
-                    <include name="testURL"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
-</suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Win/IdeaProjects/testNGPractice"><classes><class name="com.spgTesting.Assertion.Hard_Assertions"><methods><include name="test"/></methods></class><class name="com.spgTesting.Assertion.assertionDemo"><methods><include name="testTitle"/></methods></class><class name="com.spgTesting.Assertion.soft_AssertionVsHardAssertion"><methods><include name="test_hardAsserion"/><include name="test_softAsserion"/></methods></class><class name="com.spgTesting.FirstTestCase"><methods><include name="openApp"/><include name="Login"/><include name="logout"/></methods></class><class name="com.spgTesting.ListenersClass.paramTest"><methods><include name="testLogo"/><include name="testTitle"/><include name="testURL"/></methods></class><class name="com.spgTesting.POM.loginTest"><methods><include name="testLogin"/></methods></class><class name="com.spgTesting.TestNGAnnotations.AnnotationDemo1"><methods><include name="search"/><include name="advancedsSearch"/></methods></class><class name="com.spgTesting.TestNGAnnotations.AnnotationDemo2"><methods><include name="search"/><include name="advancedsSearch"/></methods></class><class name="com.spgTesting.TestNGAnnotations.beforeAndAfterTest_Annotation.test1"><methods><include name="abc"/></methods></class><class name="com.spgTesting.TestNGAnnotations.beforeAndAfterTest_Annotation.test2"><methods><include name="xyz"/></methods></class><class name="com.spgTesting.TestNGAnnotations.beforeSuiteAndAfterSuite.test3"><methods><include name="pqr"/></methods></class><class name="com.spgTesting.TestNGAnnotations.dataProviderMethod"><methods><include name="testLogin"/></methods></class><class name="com.spgTesting.TestNGAnnotations.dependencyMethod"><methods><include name="opencard"/><include name="login"/><include name="search"/><include name="adSearch"/><include name="logout"/></methods></class><class name="com.spgTesting.TestNGAnnotations.parameterization.paramTesting"><methods><include name="testLogo"/><include name="testTitle"/><include name="testURL"/></methods></class></classes></test></suite>

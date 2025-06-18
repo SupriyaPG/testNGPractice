@@ -29,7 +29,8 @@ public class loginTest {
     @Test
     void testLogin()
     {
-        loginPage lp=new loginPage(driver);
+       // loginPage lp=new loginPage(driver);
+        loginPage_usingPageFactory lp=new loginPage_usingPageFactory(driver);
         lp.setUserName("Admin");
         lp.setPasswordName("admin123");
         lp.clickLogin();

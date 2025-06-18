@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POM Test Suite">
+    <test name="pom test">
+        <classes>
+            <class name="com.spgTesting.POM.loginTest">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
